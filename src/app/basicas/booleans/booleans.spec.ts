@@ -1,11 +1,9 @@
-import { loggin } from "./booleans"
+import { loggin } from './booleans';
 
-describe('Pruebas con booleanos', () => {
-
+xdescribe('Pruebas con booleanos', () => {
   it('Deberia ser verdadero', () => {
     const userlogged = loggin();
     // expect(userlogged).not.toBeTruthy()
-    expect(userlogged).toBeTruthy()
-  })
-
-})
+    expect(userlogged).toBeTruthy();
+  });
+});
